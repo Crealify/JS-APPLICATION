@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.top-container {
+    background-image: url("images/nature.jpeg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-container h1 {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 35px;
+}
+
+.text {
+    margin: 50px 150px;
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    transition: background-color 0.4s;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding: 0 10px;
+    font-size: 24px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.navbar.active ul li a {
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: orange;
+}
+
+.navbar.active {
+    background-color: lightblue;
+}

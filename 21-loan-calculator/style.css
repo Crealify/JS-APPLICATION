@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.container {
+    background-color: aliceblue;
+    padding: 20px;
+    max-width: 600px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container label {
+    font-size: 18px;
+    text-align: left;
+}
+
+.container .input {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) inset;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.container #payment {
+    font-weight: 600;
+}

@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    background-color: lightgray;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 5px solid darkviolet;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.clock .numbers div {
+    position: absolute;
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
+}
+
+.numbers .twelve {
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.numbers .three {
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.numbers .six {
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.numbers .nine {
+    left: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.clock .arrows {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrows::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: maroon;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    z-index: 4;
+}
+
+.arrows div {
+    width: 7px;
+    position: absolute;
+    z-index: 3;
+    transform-origin: bottom center;
+    bottom: 50%;
+    border-radius: 50% 50% 0 0;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.hour {
+    background-color: red;
+    height: 70px;
+}
+
+.minute {
+    background-color: green;
+    height: 100px;
+}
+
+.second {
+    background-color: blue;
+    height: 140px;
+}
+
+.clock img {
+    z-index: 2;
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: dimgray;
+    border-radius: 5px;
+    top: 60px;
+}

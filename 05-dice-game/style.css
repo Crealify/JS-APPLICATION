@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    font-family: cursive;
+    text-align: center;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    margin: 30px;
+    text-shadow: 5px 0 #ca391f;
+    font-size: 6rem;
+    color: #4ecca3;
+}
+
+.dice {
+    display: inline-block;
+}
+
+p {
+    font-size: 2rem;
+    color: #4ecca3;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 5%;
+    color: #eeeeee;
+}

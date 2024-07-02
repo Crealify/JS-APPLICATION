@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.main {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.menu {
+    background-color: blue;
+    padding: 15px;
+    text-align: right;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+}
+
+.menu li {
+    display: inline;
+    margin: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#progress-bar {
+    height: 6px;
+    width: var(--progress);
+    background-color: brown;
+}
+
+.banner {
+    margin-bottom: -5px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.notice {
+    margin: 30px 10px 30px 10px;
+    display: flex;
+    height: 50px;
+}
+
+.notice span {
+    display: flex;
+    align-items: center;
+}
+
+.notice-title {
+    background-color: orange;
+    font-weight: bold;
+    color: blue;
+    padding: 10px 15px;
+}
+
+.notice-text {
+    flex: 1;
+    padding: 10px;
+    background-color: orangered;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px;
+    color: rgb(90, 54, 7);
+}
+
+.about img {
+    width: 100%;
+}
+
+.about div {
+    margin: 15px;
+    flex: 1;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.about p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding-top: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
+
+.btn a:hover {
+    background-color: orangered;
+}
+
+#services {
+    background-color: rgb(12, 12, 82);
+    color: white;
+    text-align: center;
+    padding: 60px 100px;
+}
+
+.services {
+    display: flex;
+}
+
+.services div {
+    margin: 15px;
+    background-color: rgb(10, 10, 231);
+    padding: 20px;
+    border-radius: 10px;
+}

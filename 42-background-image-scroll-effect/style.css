@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100vh;
+    background: url("images/learning.jpg") no-repeat;
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    padding: 50px 200px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.container p {
+    font-size: 18px;
+    color: gray;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 25px 50px;
+    }
+}

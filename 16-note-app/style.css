@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+.info {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 30px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.app .note {
+    height: 200px;
+    padding: 16px;
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    font-size: 18px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.app .note::placeholder {
+    color: white;
+    opacity: 40%;
+}
+
+.note:hover,
+.note:focus {
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transition: all 400ms ease;
+}
+
+.app .btn {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.app .btn:hover {
+    box-shadow: 0 0 10px orangered;
+    transition: all 400ms ease;
+}

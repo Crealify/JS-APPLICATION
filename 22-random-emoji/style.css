@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 32px;
+}
+
+.container .section .btn {
+    font-size: 4rem;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: brown;
+}
+
+.container .section p {
+    color: green;
+    font-weight: 600;
+    font-size: 18px;
+}

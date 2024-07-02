@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.password-container {
+    background-color: lightblue;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.input-container {
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) inset;
+}
+
+.password-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.fa-copy {
+    cursor: pointer;
+    font-size: 25px;
+    opacity: 0.4;
+}
+
+.fa-copy:hover {
+    opacity: 0.8;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.alert-container {
+    position: fixed;
+    width: 300px;
+    height: 50px;
+    background-color: orangered;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+}
+
+.active.alert-container {
+    right: -300px;
+}

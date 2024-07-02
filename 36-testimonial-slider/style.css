@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.testimonial-container {
+    width: 500px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    min-width: 400px;
+    padding: 40px 20px;
+    margin: 5px;
+    font-size: 18px;
+    position: relative;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    border: 2px solid red;
+}
+
+.username {
+    font-size: 12px;
+    font-weight: 600;
+    color: green;
+}
